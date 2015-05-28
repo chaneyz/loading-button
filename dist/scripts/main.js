@@ -1,7 +1,5 @@
 $(document).ready(function () {
-	
 	var $btn = $('#button')
-
 
 	$btn.on('click', loadBtn);
 
@@ -11,7 +9,6 @@ $(document).ready(function () {
 
 		setTimeout(submitBtn, 2000);
 	}
-
 	function submitBtn(e) {
 		$btn.html('Submit');
 		$btn.css('color', '#ffffff');
